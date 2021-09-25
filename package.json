@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "tsnd src/index.ts"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/chmartin-git/tuto/issues"
   },
-  "homepage": "https://github.com/chmartin-git/tuto#readme"
+  "homepage": "https://github.com/chmartin-git/tuto#readme",
+  "dependencies": {
+    "ts-node-dev": "^1.1.8",
+    "typescript": "^4.4.3"
+  }
 }
